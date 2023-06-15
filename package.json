@@ -1,16 +1,16 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
+  "name": "github-repo-explorer",
+  "description": "Find a user and their public repositories by their username",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
+    "name": "Faris Perwira",
+    "email": "faris.perwira@gmail.com",
+    "url": "https://github.com/farisphp"
   },
   "bugs": {
-    "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
-    "email": "joaopaulomoraes@outlook.com"
+    "url": "https://github.com/farisphp/github-repo-explorer/issues",
+    "email": "faris.perwira@gmail.com"
   },
   "scripts": {
     "dev": "vite",
@@ -22,8 +22,18 @@
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@octokit/request-error": "^4.0.1",
+    "@octokit/rest": "^19.0.11",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
+    "isomorphic-fetch": "^3.0.0",
+    "octokit": "^2.0.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.12.1",
+    "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",
