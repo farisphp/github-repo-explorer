@@ -6,8 +6,13 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config https://vitest.dev/config
 export default defineConfig({
-  define: {
-    global: {}
+  optimizeDeps: {
+    esbuildOptions: {
+      // Node.js global to browser globalThis
+      define: {
+        global: 'globalThis'
+      }
+    }
   },
   plugins: [react(), svgr(), tsconfigPaths()],
   resolve: {
