@@ -8,7 +8,7 @@ function Button({
 }: React.PropsWithChildren & { isLoading?: boolean }) {
   return (
     <button
-      className="-ml-0.5 h-full rounded-e-lg bg-black py-2.5 pl-5 pr-10 text-white disabled:opacity-50"
+      className="-ml-0.5 h-full rounded-e-lg bg-black py-2.5 pr-5 text-white disabled:opacity-50 sm:pl-5 sm:pr-10"
       disabled={isLoading}
     >
       <span className="flex items-center">
