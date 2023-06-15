@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Container /> > should render with className bg-black 1`] = `
+<div
+  class="mx-auto px-3 xl:px-0 max-w-5xl"
+>
+  test
+</div>
+`;
