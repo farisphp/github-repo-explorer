@@ -1,13 +1,13 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+![github expo explorer](https://github.com/farisphp/github-repo-explorer/blob/main/images/home-preview.png?raw=true)
 
-# React Tailwindcss Boilerplate build with Vite
+# Github Expo Explorer
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+Find a user and their public repositories by their username.
 
-## What is inside?
+This website is built with:
 
-This project uses many tools like:
-
+- [Octokit/Rest.js](https://github.com/octokit/rest.js)
+- [shadcn/ui](https://ui.shadcn.com/)
 - [Vite](https://vitejs.dev)
 - [ReactJS](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
@@ -17,20 +17,37 @@ This project uses many tools like:
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 
+## Features
+
+#### Search User
+
+Find a user by their username
+![Search user](https://github.com/farisphp/github-repo-explorer/blob/main/images/user-preview.png?raw=true)
+
+#### List Public Repositories of User
+
+Find a user by their username
+![List Public Repositories of User](https://github.com/farisphp/github-repo-explorer/blob/main/images/search-preview.png?raw=true)
+
+### Responsive website
+
+Fully responsive website
+<img src="https://github.com/farisphp/github-repo-explorer/blob/main/images/responsive_preview.png?raw=true" height="500px" />
+
 ## Getting Started
 
 ### Install
 
-Create the project.
+Clone repo.
 
 ```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+git clone https://github.com/farisphp/github-repo-explorer.git
 ```
 
 Access the project directory.
 
 ```bash
-cd my-app
+cd github-repo-explorer
 ```
 
 Install dependencies.
